@@ -1,0 +1,63 @@
+.bio{
+    color: yellow;
+    background:black ;
+   width: fit-content;
+}
+#fav{
+    color: blueviolet;
+}
+.fov{
+    display: flex;
+    flex-direction: row;
+}
+#mood{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+h2{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+#sad{
+    display: flex;
+flex-direction: column;
+padding-left: 400px; ;
+}
+#sad img{
+    padding-left: 20px;
+    width: 400px;
+    flex-shrink: 0;
+}
+#Happy {
+    padding-right: 20px;
+    width: 400px;
+    flex-shrink: 0;
+    height: 250px;
+    display: flex;
+    flex-direction: column ;
+
+    
+}
+#hap{
+    display: flex;
+    flex-direction: column;
+    padding-left: 120px;
+ 
+}
+body{
+    background: url(https://wallpaperaccess.com/full/317501.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+.dav{
+color: rgb(0, 0, 0);
+text-shadow: 1px 1px 0 white, -1px -1px 0 white;
+font-weight: bold;
+}
