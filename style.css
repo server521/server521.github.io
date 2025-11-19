@@ -1,10 +1,12 @@
 .bio{
     color: yellow;
-    background:black ;
-   width: fit-content;
+    
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 #fav{
-    color: blueviolet;
+   
 }
 .fov{
     display: flex;
@@ -50,14 +52,26 @@ padding-left: 400px; ;
  
 }
 body{
-    background: url(https://wallpaperaccess.com/full/317501.jpg) no-repeat center center fixed;
-    background-size: cover;
+    background: url('https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=1600&q=80') no-repeat center center fixed;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
-    text-shadow: 2px 2px 4px #000000;
+    color: rgb(249, 249, 249);
+    text-shadow: 2px 2px 10px #060606;
 }
 .dav{
-color: rgb(0, 0, 0);
-text-shadow: 1px 1px 0 white, -1px -1px 0 white;
-font-weight: bold;
+color: rgb(255, 255, 255);
+text-shadow: 1px 1px 0 rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0);
+text-align: center;
+font-size: 20px;
+}
+.film{
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 0px black, 0 0 20px rgb(255, 255, 255), 0 0 1px darkblue;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.facts{
+    text-align: center;
+    font-size: 20px;
+text-shadow: 1px 1px 0px black, 0 0 20px rgb(255, 255, 255), 0 0 1px darkblue;
 }
